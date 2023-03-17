@@ -2,159 +2,80 @@
 <html>
 
 <head>
-   
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel='stylesheet' type='text/css' media='screen' href='estilos.css'>
+    <script src='main.js'></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    
+
 </head>
 
 <body>
-    <div class="contenedorPrincipal">
-        <div class="tituloContenedor">
-            <h1 class="titulo">biografia</h1>
-        </div>
-        <div class="imagen">
-            <img class="imagenPrincipal" src="imagenes/biografia.jpg" alt="biografia">
+    <header>
+        <h1>Biografia</h1>
+    </header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link" href="#">Algo sobre mi</a></li>
+            <li class="nav-item"><a href="#">Mi experencia </a></li>
+            <li class="nav-item"><a href="#">Algo sobre mi</a></li>
 
-        </div>
-        <div class="biografia">
-            <h2 class="biografiaParrafo">Me llamo wasxinton ferney ordoñez baez, soy tecnólogo en desarrollo de software actualmente trabajo como desarrollador junior en una empresa  llamada ARIA, <br>
-                manejando liferay con algunos conceptos básico de css, java y html. </h2>
-        </div>
-        <div class="educacion">
-            <h2 class="educacionParrafo">Educación: <br>Técnico profesional en soporte de sistemas,<br>
-                tecnólogo en desarrollo de software.</h2>
-        </div>
+        </ul>
 
-        <div class="hobbis">
-            <h2 class="hobbisParrafo">Mis pasatiempos preferidos son caminar hacer ejercicio hablar con amigos y estudiar.</h2>
-        </div>|
+    </nav>
+    <section class="ContainerFather">
+
+        <aside class="ContainerInfo">
+            <h4>Wasxinton Ferney Ordoñez Beaz</h4>
+            <img class="fotoImagen" src="imagenes/biografia.jpg" title="foto wasxinton">
+            <P>Me llamo wasxinton ferney ordoñez baez, soy tecnólogo en desarrollo de software, actualmente trabajo como
+                desarrollador liferay junior en la empresa ARIAPSW,en donde aplico conocimientos en lenguajes como js,css, java y html.
+            </P>
+        </aside>
+
+
+        <main class="ContainerDescripcion">
+            <h3>Algo sobre mi </h3>
+            <article>
+                <P> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam alias nulla atque rerum ipsum
+                    harum,
+                    dicta et magnam nisi sed sit eveniet voluptates eum deleniti ullam fuga ut dignissimos natus?
+                </P>
+            </article>
+            <h3>Algo sobre mi </h3>
+            <article>
+                <P> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam alias nulla atque rerum ipsum
+                    harum,
+                    dicta et magnam nisi sed sit eveniet voluptates eum deleniti ullam fuga ut dignissimos natus?
+                </P>
+            </article>
+            <h3>Algo sobre mi </h3>
+            <article>
+                <P> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam alias nulla atque rerum ipsum
+                    harum,
+                    dicta et magnam nisi sed sit eveniet voluptates eum deleniti ullam fuga ut dignissimos natus?
+                </P>
+            </article>
+
+        </main>
+
+    </section>
+
         <footer>
-            <span style="text-align: center;">CONTACTO</span>
-            <p>
+            <h2> Contactos</h2>
+            <ul>
+                <li> <a href="#">#</a> </li>
+                <li> <a href="#">#</a> </li>
+            </ul>
 
-               
-                <a href="https://github.com/wachin001" target="_blank" rel="noopener">
-                    <img class="logoFooter" src="imagenes/25231.png" alt="Biografia">
-                </a>
-            </p>
+
         </footer>
 
 
-
-    </div>
-
-
-
-    <style>
-        .contenedorPrincipal {
-
-            background-color: transparent;
-            margin: 0, 1%;
-            padding: auto;
-            background-repeat: no-repeat;
-            background-image: linear-gradient(to bottom, #f1c2c2, #f8f8fc);
-            background-position: center;
-            background-size: cover;
-
-
-        }
-
-        .contenedorPrincipal .titulo {
-            background-image: linear-gradient(to right, #eb0404fa, #0000ff);
-            -webkit-background-clip: text;
-            -moz-background-clip: text;
-            background-clip: text;
-            color: transparent;
-
-
-
-        }
-
-        .contenedorPrincipal .imagen {
-            background-image: url("imagen/fondo.jpg");
-            width: 100%;
-            height: 100%;
-            border-radius: 20px;
-
-        }
-
-        .contenedorPrincipal .imagenPrincipal {
-            left: 0px;
-            border-radius: 20%;
-            border: solid 1px;
-            border-color: rgb(245, 55, 55);
-            height: 8%;
-            width: 14%;
-
-        }
-
-        .contenedorPrincipal .titulo {
-
-            text-align: center;
-
-        }
-
-        .contenedorPrincipal .biografia {
-
-            border: solid 1px;
-            border-color: rgb(13, 13, 14);
-            margin: auto;
-
-
-        }
-
-        .contenedorPrincipal .biografiaParrafo {
-            font-size: 24px;
-            font-family: monospace;
-            text-decoration: dashed;
-            text-align: end;
-
-        }
-
-        .contenedorPrincipal .educacion {
-
-            border: solid 1px;
-            border-color: rgb(13, 13, 14);
-            margin: auto;
-
-
-
-        }
-
-        .contenedorPrincipal .educacionParrafo {
-            font-size: 16px;
-            font-family: monospace;
-            text-decoration: dashed;
-            text-align: left;
-
-        }
-
-        .contenedorPrincipal .hobbis {
-
-            border: solid 1px;
-            border-color: rgb(13, 13, 14);
-            margin: auto;
-
-
-
-        }
-
-        .contenedorPrincipal .hobbisParrafo {
-
-            font-size: 12px;
-            font-family: monospace;
-            text-decoration: dashed;
-            text-align: center;
-
-        }
-        
-       .contenedorPrincipal .logoFooter { 
-
-height: 20px;
-height: 20px;
-
-
-
-       }
-    </style>
 </body>
 
 </html>

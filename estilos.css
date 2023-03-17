@@ -1,0 +1,79 @@
+
+
+header {
+
+border: solid 1px;
+padding: 0px;
+color: rgb(245, 243, 243);
+border-color: blue;
+background-color: rgb(46, 51, 51);
+align-items: center;
+text-align: center;
+font-family: Trebuchet;
+
+
+}
+.ContainerFather{
+
+display:flex;
+flex-direction: row;
+column-gap: 1rem;
+justify-content: center;
+align-items: center;
+}
+.ContainerInfo{
+
+    width: 25%;
+
+}
+.ContainerDescripcion{
+
+    width: 65%;
+
+}
+
+.fotoImagen {
+
+
+    width: 18%;
+    height: 30%;
+}
+
+
+header h1{
+
+
+padding: 0px;
+
+
+}
+
+
+
+
+
+nav {
+
+display: flex;
+padding: 1px;
+text-decoration:none;
+align-items: center;
+justify-content: center;
+}
+
+
+
+nav ul {
+
+display: flex;
+flex-wrap: wrap;
+padding: 2px;
+list-style: none;
+
+
+}
+nav a {
+
+    text-decoration: none;
+    padding: 15px;
+}
