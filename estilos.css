@@ -1,4 +1,8 @@
+h4 {
 
+
+    padding: 2px;
+}
 
 header {
 
@@ -20,22 +24,25 @@ flex-direction: row;
 column-gap: 1rem;
 justify-content: center;
 align-items: center;
+background-color:rgb(255 234 234);
 }
 .ContainerInfo{
 
     width: 25%;
+    background-color:rgb(217 217 217)
 
 }
 .ContainerDescripcion{
 
     width: 65%;
+    background-color: aliceblue;
 
 }
 
 .fotoImagen {
 
 
-    width: 18%;
+    width: 100%;
     height: 30%;
 }
 
@@ -76,4 +83,14 @@ nav a {
 
     text-decoration: none;
     padding: 15px;
+}
+
+h3 {
+
+    background-image: linear-gradient(to right, #000000, #004200);
+    color: antiquewhite;
+    text-align: center;
+
+
+
 }
